@@ -1,0 +1,63 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ 
+ 
+ 
+
+.diskusi{
+	height:500px;
+	width:100%;
+	overflow-y: scroll;
+}
+
+.dialog{
+	
+	padding:10px;
+	border-top:2px solid #c1c1c1;
+}
+
+.dialog .header{
+	border-bottom:2px solid #555;
+	padding-left:10px;
+	padding-bottom:10px;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+
+ .header span{
+	background:#555555;
+	color:#fff;
+	text-transform:capitalize;
+	padding:5px;
+	border-radius:3px
+}
+
+
+.dialog .isi{
+	margin-top:10px;
+	border:2px solid #c4c4c4;
+	border-radius:5px;
+	padding:10px;
+	
+}
+
+.red .isi{
+	background:#f9e2e2;
+	color:#c9302c;
+	border:2px solid #d9534f;
+	
+}
+
+.red .header{
+text-align:right;
+padding-right:10px;
+}
+
+.red .header span{
+	background:#d9534f;
+	
+}

@@ -1,0 +1,272 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ .merdeka {
+border-top:7px solid #c58002; 
+background:#f8a102; 
+}
+ 
+.melayang1{
+	position:fixed;
+	top:70px;
+	left:10px;
+	right:10px;
+	z-index:10;
+	border:1px solid rgba(0,0,0,0.38);
+	-webkit-box-shadow: 0 10px 12px rgba(0,0,0,0.38);
+	box-shadow: 0 10px 12px rgba(0, 0, 0, .175);	
+}
+
+.merdeka  p { 
+ color:#000;
+ padding:5px;
+ }
+ 
+.kotak-icon {
+	padding:3px 5px;  display:inline; background:#f8a102; color: #fff; 
+} 
+.kotak {
+	padding:5px 0px 4px 0;
+	font-weight:bold;
+	line-height:1;
+	background:#ddd;
+	color:#000;
+}
+
+ body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 0px 0;
+}
+
+.panjang {
+	min-height:300px;
+}
+
+.diskusi{
+	height:940px;
+	width:100%;
+	overflow-y: scroll;
+}
+
+.dialog{
+	
+	padding:10px;
+	border-top:2px solid #c1c1c1;
+}
+
+.dialog .content{
+	margin-top:10px;
+	border:2px solid #c4c4c4;
+	border-radius:5px;
+	padding:10px;
+	
+}
+
+.dialog .header{
+	border-bottom:2px solid #555;
+	padding-left:10px;
+	padding-bottom:10px;
+	margin-left:-10px;
+	margin-right:-10px;
+}
+
+ .header span{
+	background:#555555;
+	color:#fff;
+	text-transform:capitalize;
+	padding:5px;
+	border-radius:3px
+}
+
+
+ .red .content{
+	background:#f9e2e2;
+	color:#c9302c;
+	border:2px solid #d9534f;
+	
+}
+
+.red .header{
+text-align:right;
+padding-right:10px;
+}
+
+.red .header span{
+	background:#d9534f;
+	
+}
+
+.chat{
+	position:fixed;z-index:90000;bottom:10px;right:10px
+}
+
+.chat-box{
+	cursor:pointer;
+	background:#83bc36;padding:10px;border-radius:10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.59);
+}
+
+.chat-box:hover{
+	background:#f8a102;
+}
+
+.chat-shadow{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6), 0 6px 20px 0 rgba(0,0,0,0.59);
+	border-radius:5px 5px 5px 5px;
+}
+
+.chat-dialog{
+	
+	background:#83bc36;padding:10px;
+	width:300px;
+	height:400px;
+	border-radius:0 0 5px 5px ;
+}
+
+.heading{
+	color:#fff;
+	background:#f8a102;padding:10px;border-radius:5px 5px 0 0;
+	border-bottom:7px solid #c58002;
+	font-weight:bold;
+	text-align:center;
+	padding:5px;
+}
+
+.content{
+	background:#fff;
+	border-radius:5px;
+	width:100%;
+	padding:5px;
+	height:380px;
+}
+
+.admin{
+	background:#b3da7e;
+	text-align:right;
+	float:right;
+}
+
+.customer{
+	background:#fec762;
+	text-align:left;
+	float:left;
+}
+
+
+.roll{
+	overflow-y:scroll;
+	height:220px;
+}
+
+.sub-dialog{
+	padding:5px;
+	border-radius:5px;
+	width:80%;
+	margin-bottom:5px;
+}
+
+.input-center{
+	position:absolute;
+	bottom:0px;
+}
+
+.question{
+	background:#ddd;
+	margin-bottom:5px;
+	border-radius:5px;
+	padding:5px;
+}
+
+.chat-box span {
+	font-size:38px;color:#fff
+}
+
+
+#example1 {
+    display: none;
+}
+
+#table-mini {
+        display: table;
+    }
+
+ #logo {
+        width: 220px;
+    }
+	
+ #img {
+	  width: 50px !important;
+	  padding-top:0px;
+ }
+ 
+ #span {
+	  font-size: 18px !important;*/
+ }
+ #nama {
+	  display: inline !important;*/
+	}
+
+	
+
+@media screen and (min-width: 768px) {
+    #example1 {
+        display: table;
+    }
+	
+	#table-mini {
+        display: none;
+    }
+	
+	 #logo {
+        width: 140px;
+    }
+	
+ #img {
+	  width: 16px !important;
+	  padding-top:4px;
+ }
+ 
+ #span {
+	  font-size: 12px !important;*/
+ }
+ #nama {
+	  display: none !important;*/
+	}
+}
+
+
+
+
+@media screen and (min-width: 991px) {
+    #logo {
+        width: 220px;
+    }
+	#img {
+	    width: 50px !important;
+		 padding-top:0px;
+	}
+	
+	#span {
+	  font-size: 18px !important;
+	}
+	
+	#nama {
+	  display: inline !important;
+	}
+}
+
+

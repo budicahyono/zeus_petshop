@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteRule ^page/([^/]*)\.html page.php?id_nav=$1 [QSA]
+
+RewriteRule ^invoice/invoice([^/]*)$ invoice.php?id=$1 [L]
+
+RewriteRule ^([^/.]+)\.html ?nav=$1  [L]
+RewriteRule ^([^/.]+)/([^/.]+)\.html ?nav=$1&id_produk=$2  [L]
+RewriteRule ^([^/.]+)/([^/.]+)$ ?nav=$1&id=$2  [L]
+RewriteRule ^([^/.]+)/halaman/([^/]*)/$ ?nav=$1&halaman=$2 [L]
+
+
+RewriteRule ^checkout.html checkout.php [NC,L]
+RewriteRule ^end_transaction.html end_transaction.php [NC,L]
+RewriteRule ^keranjang_selesai.html keranjang_selesai.php [NC,L]
+RewriteRule ^logout logout.php [NC,L]
+
+RewriteRule ^resi.html resi.php [NC,L]
+RewriteRule ^search search.php [NC,L]
+RewriteRule ^status_pesanan.html status_pesanan.php [NC,L]
